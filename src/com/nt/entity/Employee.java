@@ -1,5 +1,7 @@
 package com.nt.entity;
 
+import java.time.LocalDate;
+
 public class Employee {
 
 	private Integer id;
@@ -53,6 +55,10 @@ public class Employee {
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", emailId=" + emailId + ", phno=" + phno + "]";
+	}
+	
+	public String createdDate() {
+		return "Created On "+LocalDate.now();
 	}
 
 }

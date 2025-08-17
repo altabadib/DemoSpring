@@ -9,6 +9,7 @@ public class MainMethod {
 		Employee emp = new Employee(101, "Adib", "adibaltab@", "7980231027");
 		System.out.println(emp);
 		
+		System.out.println(emp.createdDate());
 
 	}
 
